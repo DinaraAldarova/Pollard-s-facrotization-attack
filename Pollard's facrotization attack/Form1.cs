@@ -33,5 +33,10 @@ namespace Pollard_s_facrotization_attack
                 e.Handled = true;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+        }
     }
 }
